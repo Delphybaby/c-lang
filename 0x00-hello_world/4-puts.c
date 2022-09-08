@@ -1,7 +1,11 @@
 #include <stdio.h>
+/**
+  * main - Entry point
+  *
+  * Return: always 0
+  */
 int main(void) 
-	{char str[] = "Programming is like building a multilingual puzzle\n";
-	
-	puts(str);
-return (0);
+{
+		puts("\"Programming is like building a multilingual puzzle\n");
+                return (0);
 }
