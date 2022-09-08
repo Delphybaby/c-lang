@@ -1,2 +1,2 @@
 #!/bib/bash
-gcc -E $CFILE
+gcc -c $CFILE -o main.o
