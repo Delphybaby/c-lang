@@ -1,4 +1,4 @@
-ifndef _MAIN_H_
+#ifndef _MAIN_H_
 #define _MAIN_H_
 /**
  * _putchar - writes the character c to std
@@ -62,19 +62,19 @@ void times_table(void);
  * add - adds stuff up
  *
  * @int: integers to add
- * Return: returns a sum
- */
+      * Return: returns a sum
+       */
 int add(int, int);
 /**
- * print_to_98 - prints to 98
- * @n: integer to start at
- *
- */
+   * print_to_98 - prints to 98
+    * @n: integer to start at
+     *
+      */
 void print_to_98(int n);
 /**
- * print_times_table - whatever man
- * @n: integer to put in this table
- *
- */
+   * print_times_table - whatever man
+    *@n: integer to put in this table
+     *
+      */
 void print_times_table(int n);
 #endif  
