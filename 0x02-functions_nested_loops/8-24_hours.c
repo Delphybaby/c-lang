@@ -1,9 +1,7 @@
 #include "main.h"
-
 /**
- * main - check the code
+ * jack_bauer - main thing
  *
- * Return: Always 0.
  */
 void jack_bauer(void)
 { 
