@@ -1,10 +1,9 @@
-#include "main.h"
+#include <stdio.h>
+#include <main.h>
 /**
- * _islower - main function 
+ * main - check the code
  *
- * @c: character to compare
- *
- * Return: 1 if true, 0 if false
+ * Return: always 0
  *
  */
 int _islower(int c)
