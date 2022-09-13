@@ -2,15 +2,15 @@
 /**
  * print_alphabet_x10 - prints alphabet 10 times
  *
- * Return: always return to 0
+ * Return: always 0;
  *
  */
 void print_alphabet_x10(void)
 {	
 	char i;
-	char j;
+	char h;
 
-	for ( j = 1; j <= 10; j++)
+	for ( h = 1; h <= 10; h++)
 	{ 
 		for (i = 'a'; i <= 'z'; i++)
 		{ 
