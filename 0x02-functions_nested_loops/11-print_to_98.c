@@ -2,9 +2,9 @@
 #include "6-abs.c"
 #include <stdio.h>
 /**
- * void print_to_98(int n)
+ * Print_to_98 - main function
  *
- * Return: must not be 0
+ * @n: character etc
  */
 void print_to_98(int n)
 {
