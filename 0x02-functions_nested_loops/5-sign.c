@@ -1,18 +1,21 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * main - check the code.
+ * print_sign - main function
  *
- * Return: Always 0.
+ * @n: character to compare
+ *
+ * Return: 1 if positive, 0 if zero, -1 if negative
+ *
  */
+
 int print_sign(int n)
 {
 	if (n > 0)
 	{
-		_putchar ('+');
+		_putchar('+');
 		return (1);
 	}
-	if (n ==0)
+	if (n == 0)
 	{
 		_putchar('0');
 		return (0);
