@@ -4,7 +4,7 @@
 #include "main.h"
 /**
  *array_range - creates a range in array
- *@min: the minimum range 
+ *@min: the minimum range
  *@max: the maximum range
  *Return: return NULL, but if successful return a pointer
  */
