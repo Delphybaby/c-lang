@@ -8,21 +8,17 @@
  *
  * Return: address of new node
  */
-listint_t *add_nodeint(listint_t **head, const int n)
+istint_t *add_nodeint(listint_t **head, const int n)
 {
-	listint_t *newnode;
-	
+	listint_t *new;
+
 	if (head == NULL)
-	{
 		return (NULL);
-	}
-	if (newnode == NULL)
-	{
+	new = malloc(sizeof(listint_t));
+	if (new == NULL)
 		return (NULL);
-	}
-	newnode = malloc(sizeof(listint_t));
-	newnode->n = n;
-	newnode->next = *head;
-	*head = newnode;
-	return (&newnode);
+	new->n = n;
+	new->next = *head;
+	*head = new;
+	return (new);
 }
